@@ -9,3 +9,6 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
   container.classList.remove('show-nav');
 });
+
+// mobile layout is not good when clicking on nav menu
+// site just gets destroyed

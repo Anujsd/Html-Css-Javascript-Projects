@@ -114,10 +114,6 @@ nav li:hover {
   font-weight: bold;
 }
 
-nav li:active {
-  scale: 0.95;
-}
-
 .container.show-nav .circle {
   transform: rotate(-70deg);
 }
