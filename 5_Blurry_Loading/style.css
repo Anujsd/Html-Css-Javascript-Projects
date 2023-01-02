@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+.bg {
+  background: url('https://webneel.com/wallpaper/sites/default/files/images/04-2013/natural-scenery-wallpaper.1440.jpg')
+    no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  filter: blur(10px);
+}
+
+.loading-text {
+  color: #fff;
+  font-size: 40px;
+}
