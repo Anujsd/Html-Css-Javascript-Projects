@@ -9,3 +9,5 @@
 4 [Hidden Search Widget](https://hidden-search-widget-asd.netlify.app/)
 
 5 [Blurry Loading](https://blurry-loading-asd.netlify.app/)
+
+6 [Scroll Animation](https://scroll-animation-asd.netlify.app)
