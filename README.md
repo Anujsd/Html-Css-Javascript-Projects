@@ -11,3 +11,5 @@
 5 [Blurry Loading](https://blurry-loading-asd.netlify.app/)
 
 6 [Scroll Animation](https://scroll-animation-asd.netlify.app)
+
+7 [split landing page](https://split-landing-page-asd.netlify.app)
