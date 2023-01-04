@@ -12,4 +12,6 @@
 
 6 [Scroll Animation](https://scroll-animation-asd.netlify.app)
 
-7 [split landing page](https://split-landing-page-asd.netlify.app)
+7 [Split landing page](https://split-landing-page-asd.netlify.app)
+
+8 [Form Wave](https://form-wave-asd.netlify.app)
