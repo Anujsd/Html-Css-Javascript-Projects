@@ -16,4 +16,4 @@
 
 8 [Form Wave](https://form-wave-asd.netlify.app)
 
-9 [Sound Board](https://sound-board.netlify.app)
+9 [Sound Board](https://sound-board-asd.netlify.app)
