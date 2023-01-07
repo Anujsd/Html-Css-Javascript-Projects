@@ -21,3 +21,5 @@
 10 [Dad Jokes](https://dad-jokes-asd.netlify.app)
 
 11 [Event KeyCodes](https://event-keycodes-asd.netlify.app)
+
+12 [Faq Collapse](https://faq-collapse-asd.netlify.app)
