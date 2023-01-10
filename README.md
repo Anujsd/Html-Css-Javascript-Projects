@@ -25,3 +25,5 @@
 12 [Faq Collapse](https://faq-collapse-asd.netlify.app)
 
 13 [Random Choice Picker](https://random-choice-picker-asd.netlify.app)
+
+13 [Animated Navigation](https://animated-navigation-asd.netlify.app)
