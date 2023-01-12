@@ -11,7 +11,7 @@ const drinkingGoal = document.getElementById('drinkingGoal');
 const liters = document.getElementById('liters');
 const percentage = document.querySelector('.percentage');
 const remained = document.querySelector('.remained');
-const RemainedText = document.getElementById('RemainedText');
+const remainedText = document.getElementById('RemainedText');
 
 let goal = 2;
 let totalSmallCups = goal / 0.25;
@@ -118,7 +118,12 @@ function updateBigCup() {
   } else {
     remained.style.visibility = 'visible';
     remained.style.fontSize = `${scale(fullcups, 0, totalCups, 20, 10)}px`;
-    RemainedText.style.fontSize = `${scale(fullcups, 0, totalCups, 10, 7)}px`;
+    remainedText.style.fontSize = `${scale(fullcups, 0, totalCups, 10, 7)}px`;
+    if (fullcups > 12 && fullcups === totalCups - 1) {
+      remained.style.flexDirection = 'row';
+    } else {
+      remained.style.flexDirection = 'column';
+    }
     liters.innerText = `${goal - (250 * fullcups) / 1000}L`;
   }
 }
