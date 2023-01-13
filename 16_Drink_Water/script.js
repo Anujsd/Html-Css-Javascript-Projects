@@ -29,11 +29,11 @@ function updateSmallCups() {
     cupEl.innerText = '250ml';
     cupEl.addEventListener('click', () => highlightCups(cupEl.id));
     smallCupsBox.appendChild(cupEl);
-    console.log(currentSmallCups);
+    // console.log(currentSmallCups);
     currentSmallCups++;
   }
   while (currentSmallCups > totalSmallCups) {
-    console.log(smallCupsBox.childNodes);
+    // console.log(smallCupsBox.childNodes);
     smallCupsBox.removeChild(smallCupsBox.lastChild);
     currentSmallCups--;
   }
@@ -76,7 +76,7 @@ minusBtn.addEventListener('click', () => {
 function highlightCups(idx) {
   idx = parseInt(idx);
   const smallCups = smallCupsBox.childNodes;
-  console.log(smallCups[idx].classList, smallCups[idx].id, idx);
+  // console.log(smallCups[idx].classList, smallCups[idx].id, idx);
   const totalCups = smallCupsBox.childNodes.length;
   if (idx === totalCups - 1 && smallCups[idx].classList.contains('full')) {
     idx--;
