@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #000;
+}
+
+html.dark {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+body {
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+.toggle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.needle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  width: 3px;
+  background-color: var(--primary-color);
+  transform-origin: bottom center;
+  transition: all 0.5s ease-in;
+}
+
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(10deg);
+}
+.needle.minute {
+  transform: translate(-50%, -100%) rotate(20deg);
+  height: 100px;
+}
+.needle.second {
+  transform: translate(-50%, -100%) rotate(30deg);
+  height: 100px;
+  background-color: red;
+}
+
+.center-point {
+  background-color: var(--primary-color);
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.center-point::after {
+  content: '';
+  background-color: var(--secondary-color);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.time {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.date {
+  text-transform: uppercase;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.3px;
+}
+
+.date .circle {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  transition: all 0.5s ease-in;
+}
+
+.no-transition {
+  transition: none;
+}
