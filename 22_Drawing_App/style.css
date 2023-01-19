@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+#canvas {
+  border: 2px solid blueviolet;
+}
+
+.toolbox {
+  width: 804px;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  display: flex;
+}
+
+.toolbox > * {
+  background-color: #fff;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.brushSize {
+  display: flex;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.brushSize > * {
+  margin: 2px;
+}
+
+.brushSize button {
+  cursor: pointer;
+}
+
+.colorPicker > * {
+  margin: 2px;
+}
+
+.colorPicker input {
+  cursor: pointer;
+}
+
+.toolbox > *:last-child {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 50px;
+}
