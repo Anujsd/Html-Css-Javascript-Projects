@@ -11,9 +11,35 @@ const colorEl = document.getElementById('color');
 let x;
 let y;
 let size = 10;
-colorEl.value = 'black';
+colorEl.value = '#000000';
 let color = colorEl.value;
 let isPressed = false;
+
+canvas.addEventListener('touchend', (e) => {
+  e.preventDefault();
+  isPressed = true;
+  x = e.offsetX;
+  y = e.offsetY;
+});
+
+canvas.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+  isPressed = false;
+  x = undefined;
+  y = undefined;
+});
+
+canvas.addEventListener('touchmove', (e) => {
+  e.preventDefault();
+  if (isPressed) {
+    const x2 = e.offsetX;
+    const y2 = e.offsetY;
+    drawCircle(x2, y2);
+    drawLine(x, y, x2, y2);
+    x = x2;
+    y = y2;
+  }
+});
 
 canvas.addEventListener('mousedown', (e) => {
   isPressed = true;

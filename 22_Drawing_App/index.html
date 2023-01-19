@@ -8,20 +8,23 @@
     <title>Drawing App</title>
   </head>
   <body>
-    <div class="toolbox">
-      <div class="brushSize">
-        <button id="decrease">-</button>
-        <span id="size">10</span>
-        <button id="increase">+</button>
-      </div>
-      <div class="colorPicker">
-        <input type="color" id="color" />
-        <span>Color Picker</span>
-      </div>
+    <div class="invisible">Works Only On Big Screens</div>
+    <div class="container">
+      <div class="toolbox">
+        <div class="brushSize">
+          <button id="decrease">-</button>
+          <span id="size">10</span>
+          <button id="increase">+</button>
+        </div>
+        <div class="colorPicker">
+          <input type="color" id="color" />
+          <span>Color Picker</span>
+        </div>
 
-      <button id="clear">clear Screen</button>
+        <button id="clear">clear Screen</button>
+      </div>
+      <canvas id="canvas" width="800" height="700"></canvas>
     </div>
-    <canvas id="canvas" width="800" height="700"></canvas>
     <script src="./script.js"></script>
   </body>
 </html>

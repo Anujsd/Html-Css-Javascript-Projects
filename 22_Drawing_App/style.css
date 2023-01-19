@@ -64,3 +64,16 @@ body {
   margin-left: auto;
   margin-right: 50px;
 }
+
+.invisible {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: none;
+  }
+  .invisible {
+    display: block;
+  }
+}
