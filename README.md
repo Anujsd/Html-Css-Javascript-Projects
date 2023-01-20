@@ -43,3 +43,5 @@
 21 [Drag N Drop](https://drag-n-drop-asd.netlify.app)
 
 22 [Drawing App](https://drawing-app-asd.netlify.app)
+
+23 [Kinetic Loader](https://kinetic-laoder-asd.netlify.app)
