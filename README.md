@@ -44,4 +44,6 @@
 
 22 [Drawing App](https://drawing-app-asd.netlify.app)
 
-23 [Kinetic Loader](https://kinetic-laoder-asd.netlify.app)
+23 [Kinetic Loader](https://kinetic-loader-asd.netlify.app)
+
+24 [Content Placeholder](https://content-placeholder-asd.netlify.app)
