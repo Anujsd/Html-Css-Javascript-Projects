@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+  position: relative;
+}
+
+.btn {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.toasts {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toast {
+  background-color: green;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.toast.info {
+  background-color: rebeccapurple;
+}
+
+.toast.success {
+  background-color: green;
+}
+
+.toast.error {
+  background-color: red;
+}
