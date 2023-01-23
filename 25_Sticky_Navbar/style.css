@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', open-sans;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url('https://i.huffpost.com/gen/2200694/thumbs/o-PLANT-GROWING-facebook.jpg');
+  height: 100vh;
+  background-size: conver;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.hero p {
+  font-size: 30px;
+}
+
+.nav {
+  position: fixed;
+  background-color: green;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.nav .container ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav.active {
+  background-color: #fff;
+  border: 1px solid green;
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 5px 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.content ul {
+  margin: 0 0 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-position: inside;
+  padding: 0 20px 20px;
+}
+
+@media (max-width: 500px) {
+  .nav .container {
+    padding: 10px 5px;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+}

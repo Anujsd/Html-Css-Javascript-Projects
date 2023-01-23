@@ -28,3 +28,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 22  | [Drawing App](https://drawing-app-asd.netlify.app)                    |
 | 23  | [Kinetic Loader](https://kinetic-loader-asd.netlify.app)              |
 | 24  | [Content Placeholder](https://content-placeholder-asd.netlify.app)    |
+| 25  | [Sticky Navbar](https://sticky-navbar-asd.netlify.app)                |
