@@ -31,3 +31,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 25  | [Sticky Navbar](https://sticky-navbar-asd.netlify.app)                   |
 | 26  | [Double Vertical Slider](https://double-vertical-slider-asd.netlify.app) |
 | 27  | [Toast Notification](https://toast-notification-asd.netlify.app)         |
+| 28  | [Github Profiles](https://github-profiles-asd.netlify.app)               |
