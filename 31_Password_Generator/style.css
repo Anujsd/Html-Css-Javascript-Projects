@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+  color: blueviolet;
+  font-family: 'Muli', open-sans;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 3);
+  padding: 20px;
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.result-container {
+  width: 100%;
+  height: 40px;
+  border: 1px solid blueviolet;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.result-container #result {
+  height: 100%;
+  word-wrap: break-word;
+  max-width: calc(100%-30px);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.result-container .btn {
+  position: absolute;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+#length {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  outline: none;
+  width: 40px;
+  text-align: center;
+}
+
+input[type='number'] {
+  /*for absolutely positioning spinners*/
+  position: relative;
+  padding-right: 20px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.btn-large {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
