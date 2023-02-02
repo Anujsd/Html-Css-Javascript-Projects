@@ -35,3 +35,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 29  | [Double Click Heart](https://double-click-heart-asd.netlify.app)         |
 | 30  | [Auto Text Effect](https://auto-text-effect-asd.netlify.app)             |
 | 31  | [Password Generator](https://password-generator-asd.netlify.app)         |
+| 32  | [Animated Checkbox](https://animated-checkbox-asd.netlify.app)           |

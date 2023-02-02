@@ -10,3 +10,6 @@ and 5px border will be added internally like 90px element + 5px padding + 5px bo
 [More explanation](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing#:~:text=Note%3A%20It%20is%20often%20useful,while%20laying%20out%20your%20content)
 
 ## Great game for learning flex-box https://flexboxfroggy.com/
+
+some other great projects to try
+1 https://usefulangle.com/post/12/javascript-going-fullscreen-is-rare
