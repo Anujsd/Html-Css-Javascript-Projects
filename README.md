@@ -36,3 +36,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 30  | [Auto Text Effect](https://auto-text-effect-asd.netlify.app)             |
 | 31  | [Password Generator](https://password-generator-asd.netlify.app)         |
 | 32  | [Animated Checkbox](https://animated-checkbox-asd.netlify.app)           |
+| 33  | [Notes App](https://notes-app-asd.netlify.app)                           |

@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat', open-sans;
   text-align: center;
   overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h3 {
