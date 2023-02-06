@@ -37,3 +37,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 31  | [Password Generator](https://password-generator-asd.netlify.app)         |
 | 32  | [Animated Checkbox](https://animated-checkbox-asd.netlify.app)           |
 | 33  | [Notes App](https://notes-app-asd.netlify.app)                           |
+| 34  | [Animated Countdown](https://animated-countdown-asd.netlify.app)         |
