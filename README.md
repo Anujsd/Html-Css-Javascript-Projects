@@ -40,3 +40,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 34  | [Animated Countdown](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/34_Animated_Countdown)         | [Live](https://animated-countdown-asd.netlify.app)     |
 | 35  | [Image Carousel](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/35_Image_Carousel)                 | [Live](https://image-carousel-asd.netlify.app)         |
 | 36  | [Hoverboard](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/36_Hoverboard)                         | [Live](https://hoverboard-asd.netlify.app)             |
+| 37  | [Hoverboard](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/37_Pokedex)                            | [Live](https://pokedex-asd.netlify.app)                |
