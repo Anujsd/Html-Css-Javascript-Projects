@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+.btn {
+  background-color: #f9ca24;
+  padding: 10px 20px;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 5px;
+  position: fixed;
+  top: 20px;
+  z-index: 100;
+  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
+
+.boxes {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+.boxes.big {
+  width: 600px;
+  height: 600px;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
+}
+
+.box {
+  background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 125px;
+  position: relative;
+  transition: 0.4s ease;
+  background-size: 500px 500px;
+}
+
+.box::after {
+  content: '';
+  background-color: #f9ca24;
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
+}
+.box::before {
+  content: '';
+  background-color: #f6e58d;
+  position: absolute;
+  right: -15px;
+  top: 8px;
+  height: 100%;
+  width: 15px;
+  transform: skewY(45deg);
+}
