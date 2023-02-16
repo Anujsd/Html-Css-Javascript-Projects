@@ -45,3 +45,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 39  | [Password Strength Background](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/39_Password_Strength_Background) | [Live](https://password-strength-background-asd.netlify.app) |
 | 40  | [3D_Background_Boxes](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/40_3D_Background_Boxes)                   | [Live](https://3d-background-boxes-asd.netlify.app)          |
 | 41  | [Verify_Account_UI](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/41_Verify_Account_UI)                       | [Live](https://verify-account-ui-asd.netlify.app)            |
+| 42  | [Live_User_Filter](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/42_Live_User_Filter)                         | [Live](https://live-user-filter-asd.netlify.app)             |
