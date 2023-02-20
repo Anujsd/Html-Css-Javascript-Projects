@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+
+.logo {
+  width: 200px;
+}
+.text {
+  text-transform: uppercase;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.open-btn {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+  transform: translateX(0);
+}
+
+.nav-black {
+  background-color: black;
+  width: 60%;
+  max-width: 400px;
+  min-width: 200px;
+  transition-delay: 0.4s;
+}
+.nav-black.visible {
+  transition-delay: 0s;
+}
+
+.nav-red {
+  background-color: red;
+  width: 95%;
+  transition-delay: 0.2s;
+}
+.nav-red.visible {
+  transition-delay: 0.2s;
+}
+
+.nav-white {
+  background-color: white;
+  width: 95%;
+  padding: 40px;
+  position: relative;
+  transition-delay: 0s;
+}
+.nav-red.visible {
+  transition-delay: 0.4s;
+}
+
+.close-btn {
+  opacity: 0.5;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 20px 0;
+}
+
+.list li a {
+  color: red;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+@media (max-width: 400px) {
+  .nav-white {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .close-btn {
+    top: 20px;
+    right: 20px;
+  }
+}
