@@ -49,3 +49,4 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 43  | [Feedback_UI_Design](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/43_Feedback_UI_Design)                     | [Live](https://feedback-ui-design-asd.netlify.app)           |
 | 44  | [Custom_Range_Slider](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/44_Custom_Range_Slider)                   | [Live](https://custom-range-slider-asd.netlify.app)          |
 | 45  | [Netflix_Mobile_Navigation](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/45_Netflix_Mobile_Navigation)       | [Live](https://netflix-mobile-navigation-asd.netlify.app)    |
+| 46  | [Quiz_App](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/46_Quiz_App)                                         | [Live](https://quiz-app-asd.netlify.app)                     |

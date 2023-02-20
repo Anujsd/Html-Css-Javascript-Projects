@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(167, 167, 232);
+  background: linear-gradient(
+    186deg,
+    rgba(167, 167, 232, 1) 35%,
+    rgba(171, 207, 218, 1) 46%,
+    rgba(83, 210, 237, 1) 74%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: 'Montserrat', open-sans;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cross axis here column so horizontal*/
+  justify-content: center; /*main axis here column so vertical*/
+}
+.quiz-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quiz-content {
+  padding: 50px;
+}
+
+.question {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.options {
+  list-style: none;
+}
+
+.option {
+  padding: 5px 0;
+  font-size: 1.2rem;
+}
+
+.option label {
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: inherit;
+  background-color: rgba(138, 43, 226, 0.8);
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(138, 43, 226, 1);
+}
+
+@media (max-width: 400px) {
+  .quiz-container {
+    width: 350px;
+  }
+  .quiz-content {
+    padding: 20px;
+  }
+}
