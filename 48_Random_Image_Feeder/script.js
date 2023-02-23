@@ -3,6 +3,7 @@ const count = document.querySelector('.count');
 const URL = 'https://source.unsplash.com/random';
 
 let rows = 1;
+count.focus();
 
 count.addEventListener('change', (e) => {
   const input = +e.target.value;

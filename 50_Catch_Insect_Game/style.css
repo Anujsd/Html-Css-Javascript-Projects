@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: rgb(0, 128, 0);
+  background: linear-gradient(
+    153deg,
+    rgba(0, 128, 0, 1) 18%,
+    rgba(166, 203, 60, 1) 91%
+  );
+  color: #fff;
+  font-family: 'Press Start 2P', open-sans;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: margin 0.5s ease-in;
+}
+
+.screen.up {
+  margin-top: -100vh;
+}
+
+/* Screen 1 */
+h1 {
+  font-size: 2rem;
+}
+
+#start-btn {
+  color: green;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 20px;
+  outline: none;
+}
+
+#start-btn:hover {
+  opacity: 0.9;
+}
+
+#start-btn:active {
+  transform: scale(0.98);
+}
+
+/* Screen 2 */
+
+.insects-list {
+  display: flex;
+  list-style: none;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.choose-insect-btn {
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.choose-insect-btn img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.choose-insect-btn:hover {
+  background-color: #fff;
+  color: green;
+}
+
+.choose-insect-btn:active {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Screen 3 */
+
+.time {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1rem;
+}
+
+.score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1rem;
+}
+
+.message {
+  background-color: rgb(117, 111, 111);
+  width: 100%;
+  padding: 20px;
+  line-height: 1.5rem;
+  z-index: 100;
+  position: absolute;
+  top: -100px;
+  transition: all 1 ease-in;
+  opacity: 0;
+}
+
+.message.visible {
+  top: 50px;
+  opacity: 1;
+}
+
+.insect img {
+  width: 100px;
+  height: 100px;
+}
+
+.insect {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  z-index: 50;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.insect.caught {
+  transform: scale(0);
+}

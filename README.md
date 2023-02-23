@@ -52,3 +52,5 @@ Doing Projects From [50Projects50Days](https://github.com/bradtraversy/50project
 | 46  | [Quiz_App](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/46_Quiz_App)                                         | [Live](https://quiz-app-asd.netlify.app)                     |
 | 47  | [Testimonial_Box_Switcher](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/47_Testimonial_Box_Switcher)         | [Live](https://testimonial-box-switcher-asd.netlify.app)     |
 | 48  | [Random_Image_Feeder](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/48_Random_Image_Feeder)                   | [Live](https://random-image-feeder-asd.netlify.app)          |
+| 49  | [ToDoApp](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/49_ToDoApp)                                           | [Live](https://todoapp-asd.netlify.app)                      |
+| 50  | [Catch_Insect_Game](https://github.com/Anujsd/Html-Css-Javascript-Projects/tree/main/50_Catch_Insect_Game)                       | [Live](https://catch-insect-game-asd.netlify.app)            |
